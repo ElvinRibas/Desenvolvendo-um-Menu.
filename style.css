@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: rgb(46, 43, 43);
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 25px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.header img.logo-rock {
+  width: 40px;
+}
+
+.header img.logo-onebitcode {
+  width: 200px;
+}
+
+.header div.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.buttonHeader {
+  font-size: 20px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  background-color: transparent;
+  border-color: white;
+  color: white;
+  cursor: pointer; /*muda o cursor ao passar em cima do botão.*/
+  transition: 0.4s; /*tempo da mudança de cor.*/
+}
+
+.buttonHeader:hover {
+  /*animação no botão.*/
+  border-color: #ff0044;
+}
